@@ -52,6 +52,59 @@
               <label for="event-info">Extra information</label>
               <textarea id="event-info"></textarea>
             </div>
+
+            <div class="input-wrapper">
+              <label for="event-category">Category</label>
+              <select id="event-category">
+                <option value="live">Live</option>
+                <option value="live">Podcast</option>
+                <option value="mentorship">Mentorship</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Privacy</legend>
+            <div class="input-wrapper">
+              <label for="event-email"
+                >Administrator e-mail<span>(enter a valid e-mail)</span></label
+              >
+              <input type="email" id="event-email" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-password">
+                Access password for participants<span
+                  >(minimum 8 characters)</span
+                ></label
+              >
+              <input type="password" id="event-password" />
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Day and hour</legend>
+
+            <div class="col-3">
+              <div class="input-wrapper">
+                <label for="event-date">Date</label>
+                <input type="date" id="event-date" />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="event-begin"> From</label>
+                <input type="time" id="event-begin" />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="event-end"> Until</label>
+                <input type="time" id="event-end" />
+              </div>
+            </div>
           </div>
         </fieldset>
       </form>
